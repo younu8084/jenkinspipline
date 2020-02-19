@@ -1,0 +1,17 @@
+@Library('shlib1')_
+pipeline{
+  agent any
+  stages{
+        stage('Sonar')
+            {
+                steps
+                {
+                    //Aboardcolumn()
+                    //Azurebackloglevel()
+                    //Aworkitems()
+                    Acreatewrkitem()
+                
+                }
+            }
+  }
+}
