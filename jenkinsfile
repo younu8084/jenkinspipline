@@ -9,7 +9,7 @@ pipeline{
                     //Aboardcolumn()
                     //Azurebackloglevel()
                     //Aworkitems()
-                    Acreatewrkitem()
+                    Acreatewrkitem(Issue)
                 
                 }
             }
