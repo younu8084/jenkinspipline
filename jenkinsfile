@@ -2,14 +2,15 @@
 pipeline{
   agent any
   stages{
-        stage('Sonar')
+        stage('Azure')
             {
                 steps
                 {
                     //Aboardcolumn()
                     //Azurebackloglevel()
                     //Aworkitems()
-                    Acreatewrkitem(Epic)
+                    //Acreatewrkitem(Epic)
+                     Acreatewrkitem()
                 
                 }
             }
