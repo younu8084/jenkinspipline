@@ -10,7 +10,8 @@ pipeline{
                     //Azurebackloglevel()
                     //Aworkitems()
                    // Acreatewrkitem("vickysastryvs","ENG122","Epic")
-                   Aaddcomment("vickysastryvs","ENG122","13")
+                  // Aaddcomment("vickysastryvs","ENG122","13")
+                  bamboo()
 
                 }
             }
