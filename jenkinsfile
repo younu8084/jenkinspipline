@@ -12,7 +12,7 @@ pipeline{
                    // Acreatewrkitem("vickysastryvs","ENG122","Epic")
                   // Aaddcomment("vickysastryvs","ENG122","13")
                  bamboo("http://18.220.143.53:8085")
-                    script
+                  /*  script
       {
                   def totalbuild=bamboonobuild.bamboo("http://18.220.143.53:8085")
                   echo "${totalbuild}"
@@ -20,9 +20,7 @@ pipeline{
                   {
                   bamboonobuild.success(totalbuild)
                   }
-                  }
-
-                }
+                  }*/
             }
   }
 }
