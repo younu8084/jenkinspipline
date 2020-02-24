@@ -15,6 +15,7 @@ pipeline{
                     script
       {
                   def totalbuild=bamboonobuild.bamboo("http://18.220.143.53:8085")
+                  echo "${totalbuild}"
                   if(totalbuild!=0)
                   {
                   bamboonobuild.success(totalbuild)
