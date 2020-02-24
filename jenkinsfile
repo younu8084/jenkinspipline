@@ -14,7 +14,11 @@ pipeline{
                   //bamboo("http://18.220.143.53:8085")
                     script
       {
-                  bamboonobuild.bamboo("http://18.220.143.53:8085")
+                  def totalbuild=bamboonobuild.bamboo("http://18.220.143.53:8085")
+                  if(totalbuild!=0)
+                  {
+                  bamboonobuild.success(totalbuild)
+                  }
                   }
 
                 }
